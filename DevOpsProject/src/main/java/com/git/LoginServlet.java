@@ -32,7 +32,7 @@ public class LoginServlet extends HttpServlet {
 			sess.setAttribute("username", user);
 			rd = request.getRequestDispatcher("failure.jsp");
 			rd.forward(request, response);
-		}dssf;lsklsk;ksk;ads;kk;sldfkc;sdlk
+		}
 	}
 
 }
