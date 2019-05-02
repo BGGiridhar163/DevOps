@@ -14,8 +14,6 @@ import javax.servlet.http.HttpSession;
  */
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
-   jkldksfjlkdsajkfdsl/kjfjldsjlfdslkjsdlkj
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String user = request.getParameter("user");
 		String pass = request.getParameter("pass");
